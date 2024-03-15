@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+div.hero-text {
+  @apply font-bold text-[50px] md:text-[70px] mb-2 text-center bg-gradient-to-r from-[#63f37b] to-[#3F72AF] bg-clip-text text-transparent;
+}

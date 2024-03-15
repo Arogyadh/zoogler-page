@@ -19,7 +19,9 @@ export default function Navbar() {
         <NavigationMenuList>
           <NavigationMenuItem>
             <Link href={"/"}>
-              <span className="mr-20 font-bold">Zoogler</span>
+              <span className="font-bold text-lg mb-2 text-center bg-gradient-to-r from-[#63f37b] to-[#3F72AF] bg-clip-text text-transparent mr-20">
+                Zoogler
+              </span>
             </Link>
           </NavigationMenuItem>
           <NavigationMenuItem>
